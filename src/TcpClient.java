@@ -10,13 +10,17 @@ public class TcpClient {
 				FileInputStream fis = new FileInputStream("client_send.txt");
 				FileOutputStream fos = new FileOutputStream("client_revc.txt")
 				) {
+
 			int ch;
+			// Send the contents of "client_send.txt" to the server
 			OutputStream output = socket.getOutputStream();
 			while((ch = fis.read()) != -1) {
 				output.write(ch);
 			}
-//			output.write(0);
+			// Send 0 to indicate termination
+			// output.write(0);
 
+			// Output reply from server to "client_recv.txt"
 			InputStream input = socket.getInputStream();
 			while((ch = input.read()) != 0) {
 				fos.write(ch);
