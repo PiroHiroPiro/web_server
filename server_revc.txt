@@ -1,0 +1,10 @@
+GET /index.html HTTP/1.1
+Host: localhost:8001
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ja,en-US;q=0.9,en;q=0.8
+Cookie: username-localhost-8888="2|1:0|10:1538632935|23:username-localhost-8888|44:MTIwY2JlNTM2ZGQ3NGVhODhkMjQ2ODA0NjI0ODM4ZmI=|124b7ebeecf6237661f3f1a2283168142f7bbc97460665f7e492a6aa3a3877cf"; _xsrf=2|8c1be342|6e45438dc3f4298ead246debde2b6dea|1538632935
+
